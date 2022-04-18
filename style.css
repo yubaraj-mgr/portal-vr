@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(rgb(197, 134, 233), rgb(179, 166, 190));
+}
+
+.wrapper {
+  height: 789px;
+  margin: 50px;
+  background-image: url(./images/Universe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.vr-image {
+  height: 300px;
+  width: 200px;
+  border-radius: 50px;
+  background-image: url(./images/VR\ Image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  position: relative;
+  top: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+}
+
+.login ul {
+  display: flex;
+  width: 180px;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.signup {
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  bottom: 7px;
+}
+
+h1 {
+  word-spacing: 10px;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+article {
+  position: relative;
+  left: 100px;
+}
+
+.playnow {
+  height: 30px;
+  width: 90px;
+  background: radial-gradient(rgba(225, 236, 67, 0.5), rgb(99, 24, 240));
+  border-radius: 10px;
+  color: white;
+}
+
+.see-demo {
+  position: relative;
+  left: 10px;
+}
+
+.vr {
+  color: blue;
+}
+
+.info {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.video {
+  height: auto;
+  width: 300px;
+  position: relative;
+  left: 50px;
+  top: 35px;
+}
+
+.video img {
+  border-radius: 20px;
+}
+
+.start-playing {
+  height: auto;
+  width: 600px;
+}
+
+.anchor {
+  border: 3px solid blue;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anchor a {
+  color: white;
+}
+
+.qualities {
+  height: auto;
+  width: 180px;
+  position: relative;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.qualities ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+}
+
+.plus {
+  font-size: 30px;
+}
+
+footer {
+  height: 100px;
+  margin: 35px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
