@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
 }
 
 body {
@@ -8,8 +9,8 @@ body {
 }
 
 .wrapper {
-  height: 789px;
-  margin: 50px;
+  height: 1100px;
+  margin: 60px 100px;
   background-image: url(./images/Universe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,16 +39,30 @@ nav {
   margin: 50px;
   position: relative;
   top: 20px;
+  z-index: 10;
+  margin: 150px;
 }
 
 ul li {
   list-style: none;
 }
 
+ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
 .menu {
   display: flex;
-  width: 400px;
+  width: 600px;
   justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 23px;
+  position: relative;
+  bottom: 20px;
 }
 
 .login ul {
@@ -58,24 +73,49 @@ ul li {
 }
 
 .signup {
-  border: 3px solid blue;
-  border-radius: 10px;
+  border: 3px solid rgb(114, 114, 221);
+  border-radius: 15px;
   padding: 5px;
   position: relative;
   bottom: 7px;
 }
 
 h1 {
-  word-spacing: 10px;
-  font-size: 40px;
-  letter-spacing: 1px;
+  font-size: 60px;
+  position: relative;
+  top: 35px;
+  word-spacing: 50px;
+}
+
+.gear-up {
+  font-size: 30px;
 }
 
 article {
-  position: relative;
-  left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: -1;
+  height: 430px;
+  margin: -70px 50px;
 }
 
+.left {
+  position: relative;
+  bottom: 25px;
+}
+.right {
+  background-image: url(./images/VR\ Image.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  bottom: 160px;
+  border-radius: 25px;
+  opacity: 0.7;
+}
 .playnow {
   height: 30px;
   width: 90px;
@@ -84,32 +124,50 @@ article {
   color: white;
 }
 
+.icon {
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
 .see-demo {
   position: relative;
   left: 10px;
 }
 
+.see-demo a {
+  text-decoration: none;
+  color: white;
+}
+
 .vr {
-  color: blue;
+  color: rgb(104, 104, 235);
 }
 
 .info {
-  height: 250px;
+  height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
+  top: 80px;
+  margin: 0px 50px;
 }
 
 .video {
-  height: auto;
+  height: 240;
   width: 300px;
   position: relative;
   left: 50px;
   top: 35px;
+  border-radius: 15px;
 }
 
-.video img {
-  border-radius: 20px;
+video {
+  position: relative;
+  right: 4px;
+  bottom: 5px;
+  border: 3px solid rgb(104, 104, 235);
+  border-radius: 15px;
 }
 
 .start-playing {
@@ -118,9 +176,9 @@ article {
 }
 
 .anchor {
-  border: 3px solid blue;
+  background: radial-gradient(rgba(225, 236, 67, 0.5), rgb(99, 24, 240));
   color: white;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 25px;
   width: 170px;
   height: 50px;
@@ -159,4 +217,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 80px;
 }

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>VR Gaming</title>
   </head>
   <body>
@@ -14,10 +18,10 @@
                 <div class="logo"><br>Portal <span class="vr">VR</span></div>
                 <div class="menu">
                     <ul class="menu">
-                        <li>Home</li>
-                        <li>App&Games</li>
-                        <li>Pricing</li>
-                        <li>How it Works?</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">App&Games</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">How it Works?</a></li>
                     </ul>
                 </div>
                 <div class="login">
@@ -31,19 +35,28 @@
 
 
             <article>
-                <h1>Get Ready To Enjoy<br>VR Games With<br>Our Platform</nr></h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Facere nostrum corporis porro.</p>
-                <button class="playnow">Play Now</button>
-                <span class="see-demo">See Demo</span>
+                <div class="left">
+                    <h1>Get Ready To Enjoy<br>VR Games With<br>Our Platform</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Facere nostrum corporis porro.</p>
+                    <button class="playnow">Play Now</button>
+                    <span class="fa-solid fa-circle-play fa-2x icon"></span>
+                    <span class="see-demo"><a href="#">See Demo</a></span>
+                </div>
+                <div class="right">
+                    
+                </div>
             </article>
            <br>
            <br>
             <div class="info">
                 <div class="video">
-                    <img src="./images/VR Image.jpeg" width="293px" height="240px"/>
+                    <!-- <img src="./images/VR Image.jpeg" width="293px" height="240px"/> -->
+                    <video autoplay loop width="300px" height="250px">
+                        <source src="./video/PlayStation XR™ SONY,  The future of Virtual Reality on PS5 [Trailer Concept PSVR2 by VR4Player]..mp4">
+                    </video>
                 </div>
                 <div class="start-playing">
-                    <h1>Gear Up, Get Ready To Play Awesome Games</h1>
+                    <h2 class="gear-up">Gear Up, Get Ready To Play Awesome Games</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, est perspiciatis <br>repudiandae accusantium delectus cupiditate.
                         Lorem ipsum dolor <br>sit amet consectetur adipisicing
                     </p>
