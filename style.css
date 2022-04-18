@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: "DM Serif Display", serif;
 }
 
 body {
   margin: 0px;
   background: linear-gradient(rgb(197, 134, 233), rgb(179, 166, 190));
+}
+
+a p {
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
@@ -63,6 +66,7 @@ ul li a {
   font-size: 23px;
   position: relative;
   bottom: 20px;
+  font-family: "DM Serif Display", serif;
 }
 
 .login ul {
@@ -84,11 +88,13 @@ h1 {
   font-size: 60px;
   position: relative;
   top: 35px;
-  word-spacing: 50px;
+  word-spacing: 40px;
+  font-family: "DM Serif Display", serif;
 }
 
 .gear-up {
   font-size: 30px;
+  font-family: "DM Serif Display", serif;
 }
 
 article {
